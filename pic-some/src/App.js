@@ -4,13 +4,18 @@ import "./styles.css"
 import Header from "./components/Header"
 import Cart from "./pages/Cart"
 import Photos from "./pages/Photos"
+import Login from "./pages/Login"
 
 function App() {    
     return (
         <div>
             <Header />
             <Switch>
-                <Route exact path="/">
+               <Route exact path="/">
+                    <Login />
+                </Route>
+
+                <Route path="/photos">
                     <Photos />
                 </Route>
                 
