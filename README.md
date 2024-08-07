@@ -1,5 +1,5 @@
 # Pic-Some
-A mock picture e-commerce web app
+A React.js app, a mock picture e-commerce web app
 
 Click the link... :)
 https://chinenyeakaluka.github.io/Pic-Some/pic-some/dist/index.html
